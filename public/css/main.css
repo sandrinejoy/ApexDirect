@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    /* background-color: red; */
+}
+
+#mainLandingPage{
+    width: 100vw;
+    height: 100vh;
+}
+
+#mainVideo{
+    width: 100vw;
+    height: 100vh;
+}
