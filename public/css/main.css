@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    /* background-color: red; */
 }
 
 .container{
@@ -15,13 +14,18 @@ body{
     top: 0;
     width: 100%;
     z-index: 99;
-    background-color: white;
     height: 120px;
 }
 
 a{
     text-decoration: none;
-    margin: auto 15px;    
+    margin: auto 15px;  
+    color: black; 
+    padding: 6px; 
+    font-size: 20px;
+}
+a:hover{
+    color: red;
 }
 
 #logo{
@@ -38,12 +42,24 @@ a{
 .headerLink{
     display: inline;
     margin: 30px 15px;
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+    font-weight: 600;
 }
 
 #mainVideo{
     width: 100%;
+}
+
+#button{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 800px;
+    left: 800px;
+
 }
 
 #footer{

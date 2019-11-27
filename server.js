@@ -9,7 +9,7 @@ app.get('/', (req, resp) => {
 
 
 app.use(express.static('public'))
-// app.use()
+
 
 app.listen(port, () => {
     console.log("listening on port: ", port)
