@@ -10,9 +10,25 @@ body{
 
 .stickyHeader{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     top: 0;
-    /* width: 100%; */
+    width: 100%;
     z-index: 99;
+    background-color: white;
+    height: 120px;
+}
+
+a{
+    text-decoration: none;
+    margin: auto 15px;    
+}
+
+#logo{
+    width: 140px;
+    height: 75px;
+    border: 1px solid black;
+    margin: auto 25px;
 }
 
 .noSticky{
@@ -21,7 +37,7 @@ body{
 
 .headerLink{
     display: inline;
-    margin: 15px;
+    margin: 30px 15px;
     font-size: 30px;
     letter-spacing: 2px;
 }
