@@ -11,7 +11,7 @@ body{
 .stickyHeader{
     position: fixed;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
     z-index: 99;
 }
 
@@ -26,12 +26,15 @@ body{
     letter-spacing: 2px;
 }
 
-
-#mainLandingPage{
-    width: 100vw;
-    height: 100vh;
-}
-
 #mainVideo{
     width: 100%;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: blue;
+    height: 100px;
 }
