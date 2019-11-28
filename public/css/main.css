@@ -69,6 +69,33 @@ a:hover{
     width: 100%;
 }
 
+#mainLandingPage{
+    height: 100%;
+}
+
+#getToKnowOurTeam{
+    margin-top: -5px;
+    font-size: 80px;
+    text-align: center;
+}
+
+#aboutUsImage{
+    width: 350px;
+    height: 350px;
+}
+
+#aboutUsContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+
+#Text{
+    width: 500px;
+}
+
 #footer{
     display: flex;
     flex-direction: row;
