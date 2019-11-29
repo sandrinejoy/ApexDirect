@@ -12,8 +12,8 @@ body{
 }
 
 .container{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .stickyHeader{
@@ -26,6 +26,23 @@ body{
     height: 80px;
     background-color: black;
     color: white;
+}
+
+#whatWeDo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 100%;
+    background-color: #efefef;
+}
+
+.whatWeDoItem{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: auto auto;
 }
 
 .selected{
@@ -79,21 +96,36 @@ a:hover{
     text-align: center;
 }
 
+#aboutUs{
+    background-color: #efefef;
+    border: none;
+    
+}
+
 #aboutUsImage{
-    width: 350px;
+    width: 450px;
     height: 350px;
+    margin-top: 40px;
 }
 
 #aboutUsContainer{
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    
+    padding-bottom: 100px;
+}
+
+#textTitle{
+    text-align: center;
 }
 
 #Text{
     width: 500px;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 24px;
 }
 
 #footer{
@@ -103,6 +135,12 @@ a:hover{
     width: 100%;
     background-color: blue;
     height: 100px;
+}
+
+#topFooterSection{
+    height: 150px;
+    width: 100%;
+    background-color: red;
 }
 
 .slide-in-top {
