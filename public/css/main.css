@@ -2,13 +2,10 @@
     /* border: 1px solid gold; */
 }
 
-html{
-    margin: 0;
-}
-
 body{
+    width: 100%;
     margin: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container{
@@ -29,20 +26,21 @@ body{
 }
 
 #whatWeDo{
+    padding: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    height: 250px;
-    width: 100%;
+    justify-content: space-around;
+    height: 100%;
     background-color: #efefef;
 }
 
 .whatWeDoItem{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 1px solid black;
-    margin: auto auto;
+    margin: 10px;
+    padding: 30px;
 }
 
 .selected{
