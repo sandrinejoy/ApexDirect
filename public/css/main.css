@@ -33,9 +33,11 @@ body{
     justify-content: space-around;
     height: 100%;
     background-color: #efefef;
+    margin-top: -5px;
 }
 
 .whatWeDoItem{
+    text-align: center;
     width: 200px;
     height: 200px;
     border: 1px solid black;
@@ -47,6 +49,10 @@ body{
     color: red;
 }
 
+#next{
+    z-index: 99;
+}
+
 a{
     text-decoration: none;
     color: white; 
@@ -54,7 +60,7 @@ a{
     font-size: 20px;
 }
 a:hover{
-    color: red;
+    color: #ff5722;
 }
 
 .spacer{
@@ -126,6 +132,10 @@ a:hover{
     font-size: 24px;
 }
 
+#arrow{
+    height: 450px;
+}
+
 #footer{
     display: flex;
     flex-direction: row;
@@ -136,9 +146,40 @@ a:hover{
 }
 
 #topFooterSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     height: 150px;
-    width: 100%;
-    background-color: red;
+    background-color: #607d8b;
+}
+
+#locationInfo{
+    text-align: center;
+    border: 1px solid black;
+}
+
+#socialMediaContainer{
+    text-align: center;
+    /* width: 350px; */
+    border: 1px solid black;
+}
+
+#socialMedia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contactInfo{
+    text-align: center;
+    border: 1px solid black;
+}
+
+#bottomFooterSection{
+    height: 50px;
+    background-color: black;
 }
 
 .slide-in-top {
