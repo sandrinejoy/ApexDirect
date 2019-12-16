@@ -253,7 +253,7 @@ a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 35px;background-color: #607d8b; */
+    padding-bottom: 35px;/*background-color: #607d8b; */
     background-color: black;
     color: white;
 }
