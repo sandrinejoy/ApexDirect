@@ -55,7 +55,9 @@ body{
     width: 100%;
     text-align: center;
     padding-top: 50px;
-    color: rgb(96,125,139);
+    background-color: rgb(96,125,139);
+    padding-bottom: 50px;
+    color: white;
     /* background-color: rgb(0,0,0); */
 }
 
@@ -99,7 +101,7 @@ body{
 }
 
 #jobSeekers{
-    height: 550px;
+    height: 100%;
     width: 100%;
     background-color: rgba(158,158,158,.5);
 }
@@ -110,20 +112,35 @@ body{
     flex-wrap: wrap;
     width: 90%;
     margin: 50px auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 #jobSeekersVideoContainer{
-    width: 50%;
-    background-color: red;
+    width: 60%;
     height: 100%;
 }
 
 #jobSeekersTextContainer{
-    width: 50%;
+    width: 38%;
+    padding-left: 25px;
 }
 
-#next{
-    z-index: 99;
+#jobSeekersTextContainer h1{
+    text-transform: uppercase;
+}
+
+#jobSeekersTextContainer p{
+    font-size: 25px;
+}
+
+#applyNow{
+    color: white;
+    background-color: rgb(96,125,139);
+    padding: 20px;
+    border-radius: 4px;
+    ;
+    margin-top: 30px;
 }
 
 a{
@@ -222,7 +239,7 @@ a:hover{
 #leftTriangle {
     background-color: rgba(158,158,158,.5);
     outline-style: none;
-    height: 100px;
+    height: 80px;
     border-top: 80px solid transparent;
     /* border-left: 50vw solid #303c5e; */
     border-left: 50vw solid black;
@@ -230,15 +247,11 @@ a:hover{
 
 #rightTriangle {
     background-color: rgba(158,158,158,.5);
-    height: 100px;
+    height: 80px;
     border-top: 80px solid transparent;
     /* border-right: 50vw solid #303c5e; */
     border-right: 50vw solid black;
     outline-style: none;
-}
-
-#arrow{
-    height: 450px;
 }
 
 #footer{
