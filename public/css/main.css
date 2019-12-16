@@ -5,7 +5,8 @@
 body{
     width: 100%;
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -26,7 +27,7 @@ body{
 }
 
 #whatWeDo{
-    padding: 40px;
+    padding: 50px 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -38,15 +39,53 @@ body{
 
 .whatWeDoItem{
     text-align: center;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 100%;
     border: 1px solid black;
     margin: 10px;
     padding: 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 .selected{
     color: red;
+}
+
+#whyUs{
+    /* height: 350px; */
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(96,125,139);
+    /* background-color: rgb(0,0,0); */
+}
+
+#whyUsTitle{
+    font-size: 50px;
+}
+
+#whyUsText{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#whatAreYou{
+    border: 1px solid black;
+    /* height: 500px; */
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+#whatAreYou h1{
+    text-transform: uppercase;
+}
+
+#whatAreYouTextContainer{
+
 }
 
 #next{
@@ -132,6 +171,26 @@ a:hover{
     font-size: 24px;
 }
 
+#triangles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+ } 
+
+#leftTriangle {
+    outline-style: none;
+    height: 400px;
+    border-top: 80px solid transparent;
+    border-left: 50vw solid #303c5e;
+}
+
+#rightTriangle {
+    height: 400px;
+    border-top: 80px solid transparent;
+    border-right: 50vw solid #303c5e;
+    outline-style: none;
+}
+
 #arrow{
     height: 450px;
 }
@@ -156,13 +215,10 @@ a:hover{
 
 #locationInfo{
     text-align: center;
-    border: 1px solid black;
 }
 
 #socialMediaContainer{
     text-align: center;
-    /* width: 350px; */
-    border: 1px solid black;
 }
 
 #socialMedia{
@@ -172,14 +228,23 @@ a:hover{
     justify-content: space-around;
 }
 
+.socialMedia{
+    width: 30px;
+    height: 30px;
+}
+
 #contactInfo{
     text-align: center;
-    border: 1px solid black;
 }
 
 #bottomFooterSection{
     height: 50px;
     background-color: black;
+}
+
+.whatWeDoImage{
+    width: 80px;
+    height: 80px;
 }
 
 .slide-in-top {
