@@ -1,0 +1,89 @@
+#aboutUs{
+    background-color: #efefef;
+    border: none;
+    
+}
+
+#aboutUsImage{
+    width: 450px;
+    height: 350px;
+    margin-top: 40px;
+}
+
+#aboutUsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+#triangles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+ } 
+
+#leftTriangle {
+    background-color: rgba(158,158,158,.5);
+    outline-style: none;
+    height: 80px;
+    border-top: 80px solid transparent;
+    /* border-left: 50vw solid #303c5e; */
+    border-left: 50vw solid black;
+}
+
+#rightTriangle {
+    background-color: rgba(158,158,158,.5);
+    height: 80px;
+    border-top: 80px solid transparent;
+    /* border-right: 50vw solid #303c5e; */
+    border-right: 50vw solid black;
+    outline-style: none;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#topFooterSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 35px;/*background-color: #607d8b; */
+    background-color: black;
+    color: white;
+}
+
+#locationInfo{
+    text-align: left;
+}
+
+#socialMediaContainer{
+    text-align: center;
+}
+
+#socialMedia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.socialMedia{
+    width: 30px;
+    height: 30px;
+}
+
+#contactInfo{
+    text-align: right;
+}
+
+#phoneNumber{
+    font-size: 20px;
+}
