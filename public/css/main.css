@@ -38,7 +38,7 @@ body{
 }
 
 .whatWeDoItem{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     width: 250px;
     height: 100%;
