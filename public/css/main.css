@@ -213,9 +213,38 @@ a:hover{
     padding-bottom: 100px;
 }
 
+#aboutUsTileContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 0;
+}
+
+.aboutUsTiles{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+.aboutUsImage{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
 #aboutUsTextContainer{
     width: 30%;
     align-self: center;
+}
+
+#aboutUsOurTeamContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgba(158,158,158,.5);
 }
 
 #learnMore{
@@ -233,6 +262,29 @@ a:hover{
     width: 100%;
     font-size: 30px;
     padding: 50px;
+}
+
+#aboutUsOurTeamContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 120px 0;
+    justify-content: space-evenly;
+}
+
+.aboutUsOurTeamTile{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.aboutUsOurTeamImage{
+    width: 150px;
+    height: 150px;
 }
 
 #textTitle{
