@@ -28,7 +28,7 @@ body{
 
 #whatWeDo{
     padding: 50px 40px;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
@@ -261,7 +261,7 @@ a:hover{
     color: white;
     width: 100%;
     font-size: 30px;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 #aboutUsOurTeamContainer{
