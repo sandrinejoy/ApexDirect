@@ -1,28 +1,160 @@
-#aboutUs{
-    background-color: #efefef;
-    border: none;
-    
+body{
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-#aboutUsImage{
-    width: 450px;
-    height: 350px;
+.stickyHeader{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+#logo{
+    width: 140px;
+    height: 40px;
+    border: 1px solid white;
+    margin: auto 25px;
+}
+
+.headerLink{
+    display: inline-block;
+    margin: auto 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.selected{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    padding: 6px; 
+    font-size: 20px;
+}
+a:hover{
+    color: #ff5722;
+}
+
+.spacer{
+    padding-top: 100px;
+}
+
+#aboutUs{
+    background-color: #efefef;
+}
+
+#aboutUsVideoContainer{
+    width: 60%;
+}
+
+#aboutUsVideo{
+    width: 100%;
+    /* height: 350px; */
     margin-top: 40px;
 }
 
 #aboutUsContainer{
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
     padding-bottom: 100px;
+}
+
+#aboutUsTileContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 0;
+}
+
+#aboutUsContactUsContainer{
+    background-color: rgba(158,158,158,.5);
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.aboutUsTiles{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutUsImage{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#aboutUsTextContainer{
+    width: 30%;
+    align-self: center;
+}
+
+#aboutUsOurTeamContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgba(158,158,158,.5);
+    height: 100%;
+}
+
+#aboutUsMiddleSection{
+    text-align: center;
+    background-color: #394b53;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+#aboutUsOurTeamContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 120px 0;
+    justify-content: space-evenly;
+}
+
+.aboutUsOurTeamTile{
+    width: 400px;
+    height: 100%;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.aboutUsOurTeamTile p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.aboutUsOurTeamImage{
+    width: 300px;
+    height: 300px;
 }
 
 #triangles {
     width: 100%;
     display: flex;
     flex-direction: row;
+    height: 100%;
  } 
 
 #leftTriangle {
@@ -30,15 +162,13 @@
     outline-style: none;
     height: 80px;
     border-top: 80px solid transparent;
-    /* border-left: 50vw solid #303c5e; */
     border-left: 50vw solid black;
 }
 
-#rightTriangle {
+#rightTriangle { 
     background-color: rgba(158,158,158,.5);
-    height: 80px;
+    height: 80px; 
     border-top: 80px solid transparent;
-    /* border-right: 50vw solid #303c5e; */
     border-right: 50vw solid black;
     outline-style: none;
 }
@@ -55,7 +185,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 35px;/*background-color: #607d8b; */
+    padding-bottom: 35px;
     background-color: black;
     color: white;
 }
@@ -86,4 +216,17 @@
 
 #phoneNumber{
     font-size: 20px;
+} 
+
+#bottomFooterSection{
+    height: 50px;
+    background-color: black;
+}
+
+.contactUs{
+    color: white;
+    background-color: rgb(96,125,139);
+    padding: 20px;
+    border-radius: 4px;
+    text-decoration: none;
 }

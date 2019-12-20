@@ -26,6 +26,10 @@ body{
     color: white;
 }
 
+#ourServicesTileContainer{
+  padding: 80px 0;
+}
+
 #whatWeDo{
     padding: 50px 40px;
     display: flex; 
@@ -111,9 +115,8 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 90%;
-    margin: 50px auto;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 #jobSeekersVideoContainer{
@@ -190,38 +193,6 @@ a:hover{
     text-align: center;
 }
 
-#aboutUs{
-    background-color: #efefef;
-}
-
-#aboutUsVideoContainer{
-    width: 60%;
-}
-
-#aboutUsVideo{
-    width: 100%;
-    /* height: 350px; */
-    margin-top: 40px;
-}
-
-#aboutUsContainer{
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding-bottom: 100px;
-}
-
-#aboutUsTileContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 100%;
-    padding: 90px 0;
-}
-
 #aboutUsContactUsContainer{
     background-color: rgba(158,158,158,.5);
     height: 200px;
@@ -229,72 +200,11 @@ a:hover{
     padding-top: 10px;
 }
 
-.aboutUsTiles{
-    width: 300px;
-    text-align: center;
-    padding: 20px;
-}
-
-.aboutUsImage{
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-}
-
-#aboutUsTextContainer{
-    width: 30%;
-    align-self: center;
-}
-
-#aboutUsOurTeamContainer{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: rgba(158,158,158,.5);
-    height: 100%;
-}
-
 #learnMore{
     color: white;
     background-color: rgb(96,125,139);
     padding: 20px;
     border-radius: 4px;
-}
-
-#aboutUsMiddleSection{
-    text-align: center;
-    background-color: #394b53;
-    color: white;
-    width: 100%;
-    font-size: 30px;
-    padding: 50px 0;
-}
-
-#aboutUsOurTeamContainer{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 120px 0;
-    justify-content: space-evenly;
-}
-
-.aboutUsOurTeamTile{
-    width: 400px;
-    height: 100%;
-    align-self: center;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-}
-
-.aboutUsOurTeamTile p{
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-.aboutUsOurTeamImage{
-    width: 300px;
-    height: 300px;
 }
 
 .contactUs{
@@ -306,35 +216,6 @@ a:hover{
 
 #wantToWorkWithUs{
     padding-bottom: 20px;
-}
-
-#servicesPageTitle{
-    font-size: 60px;
-    text-align: center;
-}
-
-#servicesPageSubTitle{
-    font-size: 45px;
-    text-align: center;
-}
-
-#servicesContainer{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.servicesTile{
-    width: 300px;
-    height: 100%;
-    border: 1px solid black;
-    text-align: center;
-}
-
-.servicesImage{
-    width: 100%;
-    height: 90%;
 }
 
 #textTitle{
