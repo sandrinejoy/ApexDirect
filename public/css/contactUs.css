@@ -1,9 +1,59 @@
-/* .test{
-    width: 90%;
-} */
+body{
+    margin: 0;
+}
 
-#applyNow{
-    text-align: center;
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.stickyHeader{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.selected{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    padding: 6px; 
+    font-size: 20px;
+}
+a:hover{
+    color: #ff5722;
+}
+
+.spacer{
+    padding-top: 100px;
+}
+
+#logo{
+    width: 140px;
+    height: 40px;
+    border: 1px solid white;
+    margin: auto 25px;
+}
+
+.noSticky{
+    display: none;
+}
+
+.headerLink{
+    display: inline-block;
+    margin: auto 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 600;
 }
 
 #triangles {
