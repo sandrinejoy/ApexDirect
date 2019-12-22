@@ -21,6 +21,13 @@
     border-left: 50vw solid black;
 }
 
+#logo{
+    width: 160px;
+    height: 60px;
+    border: 1px solid white;
+    margin: auto 25px;
+}
+
 #rightTriangle { 
     background-color: rgb(96,125,139);
     height: 80px; 
