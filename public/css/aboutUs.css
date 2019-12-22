@@ -232,3 +232,7 @@ a:hover{
     border-radius: 4px;
     text-decoration: none;
 }
+
+#Text{
+    font-size: 24px;
+}
