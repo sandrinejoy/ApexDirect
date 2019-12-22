@@ -95,12 +95,12 @@ a:hover{
     width: 300px;
     text-align: center;
     padding: 20px;
+    font-size: 20px;
 }
 
 .aboutUsImage{
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
+    height: 250px;
+    width: 250px;
 }
 
 #aboutUsTextContainer{
