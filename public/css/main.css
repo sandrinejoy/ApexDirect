@@ -50,7 +50,10 @@ body{
     padding: 30px;
     letter-spacing: 2px;
     font-size: 20px;
-    /* border: 1px solid black; */
+}
+
+#mobileWhatAreYouImageContainer{
+    display: none;
 }
 
 .selected{
@@ -348,4 +351,36 @@ a:hover{
             transform: translateY(0);
     opacity: 1;
   }
+}
+
+@media(max-width: 1024px){
+    #whatAreYou{
+        display: block;
+    }
+
+    #mobileWhatAreYouImageContainer{
+        display: block;
+        width: 100%;
+    }
+    #mobileWhatAreYouImage{
+        
+    }
+    #whatAreYouImageContainer{
+        display: none;
+    }
+    /* FIGURE OUT THE IMAGE ISSUE */
+    /* #whatAreYouImage{
+        display: none;
+    } */
+    #whatAreYouTextContainer{
+        text-align: center;
+        width: 100%;
+    }
+    #jobSeekersVideoContainer{
+        width: 100%;
+    }
+    #jobSeekersTextContainer{
+        width: 100%;
+    }
+    /* FIX THE APPLY NOW BUTTON */
 }

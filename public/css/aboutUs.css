@@ -235,3 +235,21 @@ a:hover{
 #Text{
     font-size: 24px;
 }
+
+@media(max-width: 1024px){
+    #aboutUsVideoContainer{
+        width: 100%;
+        display: block;
+    }
+    #aboutUsTextContainer{
+        width: 100%;
+        text-align: center;
+    }
+
+    #aboutUsTileContainer{
+        width: 100%;
+    }
+    .aboutUsTiles{
+        width: 45%;
+    }
+}
