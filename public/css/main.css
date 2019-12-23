@@ -32,7 +32,7 @@ body{
 }
 
 #whatWeDo{
-    padding: 50px 40px;
+    padding: 50px 30px;
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row;
@@ -44,12 +44,13 @@ body{
 
 .whatWeDoItem{
     text-align: center;
-    width: 250px;
+    width: 300px;
     height: 100%;
     margin: 10px;
     padding: 30px;
     letter-spacing: 2px;
     font-size: 20px;
+    /* border: 1px solid black; */
 }
 
 .selected{
@@ -67,7 +68,7 @@ body{
 }
 
 #whyUsTitle{
-    font-size: 40px;
+    /* font-size: 40px; */
 }
 
 #whyUsText{
