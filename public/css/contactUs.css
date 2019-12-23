@@ -1,5 +1,9 @@
 body{
+    width: 100%;
     margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .container{
@@ -38,8 +42,8 @@ a:hover{
 }
 
 #logo{
-    width: 160px;
-    height: 60px;
+    width: 165px;
+    height: 65px;
     border: 1px solid white;
     margin: auto 25px;
 }
