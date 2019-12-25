@@ -15,6 +15,10 @@ body{
     height: 100%;
 }
 
+#mobileHeader{
+    display: none;
+}
+
 .stickyHeader{
     position: fixed;
     display: flex;
@@ -354,6 +358,10 @@ a:hover{
 }
 
 @media(max-width: 1024px){
+    #header{
+        display: none;
+    }
+
     #whatAreYou{
         display: block;
     }
@@ -363,18 +371,24 @@ a:hover{
         width: 100%;
     }
     #mobileWhatAreYouImage{
-        
+        display: block;
+        margin: 0 auto;
+        width: 100%;
     }
     #whatAreYouImageContainer{
         display: none;
     }
-    /* FIGURE OUT THE IMAGE ISSUE */
-    /* #whatAreYouImage{
+    #whatAreYouImage{
         display: none;
-    } */
+    }
+
     #whatAreYouTextContainer{
         text-align: center;
         width: 100%;
+    }
+
+    #jobSeekers{
+        text-align: center;
     }
     #jobSeekersVideoContainer{
         width: 100%;
@@ -382,5 +396,8 @@ a:hover{
     #jobSeekersTextContainer{
         width: 100%;
     }
-    /* FIX THE APPLY NOW BUTTON */
+    
+    #applyNow{
+        margin: 0 auto;
+    }
 }
