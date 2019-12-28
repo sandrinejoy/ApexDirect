@@ -23,6 +23,10 @@ body{
     color: white;
 }
 
+.selected{
+    color: #ff5722;
+}
+
 #logo{
     width: 165px;
     height: 65px;

@@ -21,6 +21,10 @@
     border-left: 50vw solid black;
 }
 
+.selected{
+    color: #ff5722;
+}
+
 #logo{
     width: 165px;
     height: 65px;
