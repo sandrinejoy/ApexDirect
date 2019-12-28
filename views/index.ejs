@@ -7,6 +7,7 @@
     <link href="/css/main.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Apex Elite Direct</title>
 </head>
 <body>
@@ -23,9 +24,19 @@
                 </ul>
             </div>
 
-            <div id="mobileHeader">
-                
-            </div>
+
+  
+            <!-- <div class="noSticky slide-in-top" id="mobileHeader">
+                <img id="logo" src="/images/apexLogo.png" alt="LOGO">
+                <ul id="links"> -->
+                    <!-- <a class="headerLink" href="#"><li class="headerLink">Home</li></a>
+                    <a href="/aboutus"><li class="headerLink">About Us</li></a>
+                    <a href="/services"><li class="headerLink">Services</li></a>
+                    <a href="/careers"><li class="headerLink">Careers</li></a>
+                    <a href="/contactUs"><li class="headerLink">Contact Us</li></a> -->
+                <!-- </ul>
+            </div> -->
+
         
             <video id="mainVideo" autoplay="" loop="" muted="" playsinline="">
                 
@@ -37,7 +48,7 @@
         </div>
         
         <div id="whatWeDo">
-            <div class="whatWeDoItem" id="retail">
+            <div data-aos="zoom-in" data-aos-delay="300" class="whatWeDoItem" id="retail">
 
                 <img class="whatWeDoImage" src="/images/shoppingCart.png">
 
@@ -47,7 +58,7 @@
 
             </div>
 
-            <div class="whatWeDoItem"  id="experience">
+            <div data-aos="zoom-in" data-aos-delay="300" class="whatWeDoItem"  id="experience">
 
                 <img src="#">
                 
@@ -57,7 +68,7 @@
 
             </div>
 
-            <div class="whatWeDoItem"  id="merchandising">
+            <div data-aos="zoom-in" data-aos-delay="300" class="whatWeDoItem"  id="merchandising">
 
                 <img src="#">
                 
@@ -136,7 +147,7 @@
         <div id="topFooterSection">
             <div id="locationInfo">
                 <h2>Location</h2>
-
+                <p id="locationInfo">Lousville, KY</p>
             </div>
 
             <div id="socialMediaContainer">
@@ -163,5 +174,7 @@
 
     
     <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
 </body>
 </html>

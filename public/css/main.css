@@ -1,13 +1,10 @@
-*{
-    /* border: 1px solid gold; */
-}
-
 body{
     width: 100%;
     margin: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: "Noto Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 .container{
@@ -315,6 +312,10 @@ a:hover{
     height: 80px;
 }
 
+#locationInfo{
+    font-size: 20px;
+}
+
 .slide-in-top {
 	-webkit-animation: slide-in-top .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-top .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -362,6 +363,33 @@ a:hover{
         display: none;
     }
 
+    .mobileStickyHeader{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+    #mainVideo{
+        margin-top: 70px;
+    }
+
+    #mobileHeader{
+        /* position: fixed;
+        display: flex;
+        justify-content: space-between;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        height: 80px;
+        background-color: black;
+        color: white; */
+    } 
+
     #whatAreYou{
         display: block;
     }
@@ -401,3 +429,4 @@ a:hover{
         margin: 0 auto;
     }
 }
+
