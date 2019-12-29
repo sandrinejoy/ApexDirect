@@ -50,7 +50,7 @@ body{
     margin: 10px;
     /* padding: 10px; */
     letter-spacing: 2px;
-    font-size: 20px;
+    /* font-size: 20px; */
     /* border: 1px solid black; */
 }
 
@@ -99,7 +99,7 @@ body{
 }
 
 #whatAreYouTextContainer p{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #whatAreYouImageContainer{
@@ -131,12 +131,13 @@ body{
 }
 
 #jobSeekersVideoContainer{
-    width: 60%;
+    width: 50%;
     height: 100%;
+    /* border: 1px solid gold; */
 }
 
 #jobSeekersTextContainer{
-    width: 38%;
+    width: 45%;
     padding-left: 25px;
 }
 
@@ -145,13 +146,13 @@ body{
 }
 
 #jobSeekersTextContainer p{
-    font-size: 25px;
+    font-size: 21px;
 }
 
 #applyNow{
     color: white;
     background-color: rgb(96,125,139);
-    padding: 20px;
+    padding: 10px;
     border-radius: 4px;
     ;
     margin-top: 30px;
@@ -214,7 +215,7 @@ a:hover{
 #learnMore{
     color: white;
     background-color: rgb(96,125,139);
-    padding: 20px;
+    padding: 10px;
     border-radius: 4px;
 }
 
@@ -421,7 +422,7 @@ a:hover{
         text-align: center;
     }
     #jobSeekersVideoContainer{
-        /* width: 100%; */
+        width: 100%;
     }
     #jobSeekersTextContainer{
         width: 100%;
