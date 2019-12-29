@@ -133,7 +133,7 @@ a:hover{
 }
 
 .aboutUsOurTeamTile{
-    width: 400px;
+    width: 420px;
     height: 100%;
     align-self: center;
     text-align: center;
@@ -144,6 +144,11 @@ a:hover{
 .aboutUsOurTeamTile p{
     font-size: 20px;
     letter-spacing: 2px;
+    width: 100%;
+}
+
+#danaPic{
+    /* min-width: 100%; */
 }
 
 .aboutUsOurTeamImage{
