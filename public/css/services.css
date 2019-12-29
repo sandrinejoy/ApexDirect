@@ -47,7 +47,7 @@ body{
 #ourServicesTileContainer{
   padding: 80px 0;
   background-color: #efefef;
-
+  width: 100%;
 }
 
 #servicesPageTitle{
@@ -76,11 +76,12 @@ a:hover{
     flex-direction: row;
     justify-content: space-around;
     padding: 30px 0;
+    /* width: 100%; */
 }
 
 .servicesTile{
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     text-align: center;
     margin-bottom: 35px;
 }
@@ -107,6 +108,11 @@ a:hover{
 #interactive{
     align-self: flex-end;
     margin-top: 60px;
+}
+
+#seoText{
+    width: 90%;
+    margin: 0 auto;
 }
 
 #triangles {
