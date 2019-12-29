@@ -110,11 +110,10 @@ a:hover{
 }
 
 #aboutUsOurTeamContainer{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: rgba(158,158,158,.5);
-    /* height: 100%; */
+   background-color: rgba(158,158,158,.5);
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 #aboutUsMiddleSection{
@@ -130,9 +129,18 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 120px 0;
+    /* padding: 120px 0; */
     justify-content: space-evenly;
     height: 100%;
+}
+
+#meetTheTeam{
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-align: center;
+    background-color: rgba(158,158,158,.5);
+    margin: 0;
+    padding: 10px;
 }
 
 .aboutUsOurTeamTile{
@@ -147,7 +155,6 @@ a:hover{
 .aboutUsOurTeamTile p{
     font-size: 20px;
     letter-spacing: 2px;
-    /* width: 100%; */
 }
 
 #danaPic{
@@ -165,10 +172,6 @@ a:hover{
     flex-direction: row;
     height: 100%;
  } 
-
- *{
-     /* border: 1px solid gold; */
- }
 
 #leftTriangle {
     background-color: rgba(158,158,158,.5);

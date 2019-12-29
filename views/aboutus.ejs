@@ -8,6 +8,7 @@
     <link href="/css/aboutUs.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>About Us</title>
 </head>
 <body>
@@ -36,7 +37,7 @@
     
         <div id="aboutUsContainer">
 
-            <div id="aboutUsVideoContainer">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1000"  id="aboutUsVideoContainer">
                 <video id="aboutUsVideo" autoplay="" loop="" muted="" playsinline="">
                 
                     <source src="/images/aboutUsVideo.mp4" type="video/mp4">
@@ -45,7 +46,7 @@
             </div>
     
     
-            <div id="aboutUsTextContainer">
+            <div data-aos="fade-left" data-aos-duration="1000" id="aboutUsTextContainer">
 
                 <h1 id="textTitle">Come join the Apex Elite Direct Family</h1>
 
@@ -74,7 +75,7 @@
     </div>
 
     <div id="aboutUsTileContainer">
-        <div class="aboutUsTiles">
+        <div data-aos="zoom-out" data-aos-duration="500" class="aboutUsTiles">
             <img class="aboutUsImage" src="/images/performanceDriven.jpg">
             <h2>Performance Driven</h2>
             <p>
@@ -82,7 +83,7 @@
             </p>
         </div>
 
-        <div class="aboutUsTiles">
+        <div data-aos="zoom-out" data-aos-duration="500"  class="aboutUsTiles">
             <img class="aboutUsImage" src="/images/customApproach.jpg">
             <h2>Custom Approach</h2>
             <p>
@@ -90,7 +91,7 @@
             </p>
         </div>
 
-        <div class="aboutUsTiles">
+        <div data-aos="zoom-out" data-aos-duration="500"  class="aboutUsTiles">
             <img class="aboutUsImage" src="/images/clientFocused.jpg">
             <h2>Client Focused</h2>
             <p>
@@ -98,7 +99,7 @@
             </p>
         </div>
 
-        <div class="aboutUsTiles">
+        <div data-aos="zoom-out" data-aos-duration="500"  class="aboutUsTiles">
             <img class="aboutUsImage" src="/images/trustedPartners.jpg">
             <h2>Trusted Partner</h2>
             <p>
@@ -107,43 +108,47 @@
         </div>
     </div>
 
+    <h1 id="meetTheTeam">MEET OUR TEAM</h1>
+
     <div id="aboutUsOurTeamContainer">
-        <div class="aboutUsOurTeamTile" id="dana">
-            <img id="danaPic" class="aboutUsOurTeamImage" src="/images/dana.jpg">
-            <h2>CEO</h2>
-            <p>
-                Dana has 40 years experience in the marketing business! A leader/owner in 3 different business' with proven results and a track record unsurpassed in growth and recruiting overachievers in the marketing business
-            </p>
-        </div>
 
-        <div id="aboutUsOurTeamContainer">
-            <div class="aboutUsOurTeamTile" id="cindy">
-                <img id="cindyPic" class="aboutUsOurTeamImage" src="/images/cindyPic.jpg">
-                <h2>VP Human Resources</h2>
-                <p>
-                    Cynthia comes to our team from years of management in the Health care arena. She provides the personal touch in all the dotting of the "i's" and crossing the "t's". Let her 30+ years of experience go to work with the highest level of perfection for YOU and YOUR team
-                </p>
-            </div>
+                <div class="aboutUsOurTeamTile" id="dana">
+                    
+                    <img id="danaPic" class="aboutUsOurTeamImage" src="/images/dana.jpg">
+                    <h2>CEO</h2>
+                    <p>
+                        Dana has 40 years experience in the marketing business! A leader/owner in 3 different business' with proven results and a track record unsurpassed in growth and recruiting overachievers in the marketing business
+                    </p>
+                </div>
 
-        <div class="aboutUsOurTeamTile" id="cindy">
-            <img id="derekPic" class="aboutUsOurTeamImage" src="/images/derekPic.jpeg">
-            <h2>Senior Vice President</h2>
-            <p>
-                Derek is a tenacious and dedicatad programmer who thoroughly enjoys seeing a blank canvas come to life. He is constantly striving to improve his skills by learning new things daily and striving to be better than he was yesterday
-            </p>
-        </div>
+                <div id="aboutUsOurTeamContainer">
+                    <div class="aboutUsOurTeamTile" id="cindy">
+                        <img id="cindyPic" class="aboutUsOurTeamImage" src="/images/cindyPic.jpg">
+                        <h2>VP Human Resources</h2>
+                        <p>
+                            Cynthia comes to our team from years of management in the Health care arena. She provides the personal touch in all the dotting of the "i's" and crossing the "t's". Let her 30+ years of experience go to work with the highest level of perfection for YOU and YOUR team
+                        </p>
+                    </div>
 
-        <div class="aboutUsOurTeamTile" id="pilar">
-            <img id="pilarPic" class="aboutUsOurTeamImage" src="/images/pilar.jpg">
-            <h2>Lead UI/UX Designer</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore
-                et dolore magna aliqua. Nunc sed blandit libero volutpat sed.
-            </p>
-        </div>
+                <div class="aboutUsOurTeamTile" id="cindy">
+                    <img id="derekPic" class="aboutUsOurTeamImage" src="/images/derekPic.jpeg">
+                    <h2>Senior Vice President</h2>
+                    <p>
+                        Derek is a tenacious and dedicatad programmer who thoroughly enjoys seeing a blank canvas come to life. He is constantly striving to improve his skills by learning new things daily and striving to be better than he was yesterday
+                    </p>
+                </div>
 
+                <div class="aboutUsOurTeamTile" id="pilar">
+                    <img id="pilarPic" class="aboutUsOurTeamImage" src="/images/pilar.jpg">
+                    <h2>Lead UI/UX Designer</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Nunc sed blandit libero volutpat sed.
+                    </p>
+                </div>
     </div>
+    
 
     <div id="aboutUsContactUsContainer">
         <h1 id="wantToWorkWithUs">Let Our Team Go To Work For You Today</h1>
@@ -192,7 +197,10 @@
         </div>
     
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="/js/main.js"></script>
 </body>
 </html>
