@@ -79,6 +79,7 @@ a:hover{
     width: 300px;
     height: 300px;
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .servicesImage{
@@ -95,6 +96,7 @@ a:hover{
 #merchandising{
     align-self: flex-end;
     margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 #interactive{
