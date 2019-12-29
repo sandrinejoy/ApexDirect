@@ -6,6 +6,10 @@ body{
     font-family: "Noto Sans", sans-serif;
 }
 
+::-webkit-scrollbar{
+    width: 0;
+}
+
 .stickyHeader{
     position: fixed;
     display: flex;
