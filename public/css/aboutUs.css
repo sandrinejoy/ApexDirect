@@ -85,7 +85,6 @@ a:hover{
 
 #aboutUsContactUsContainer{
     background-color: rgba(158,158,158,.5);
-    /* height: 200px; */
     text-align: center;
     padding-top: 10px;
     width: 100%;
@@ -93,19 +92,19 @@ a:hover{
 }
 
 .aboutUsTiles{
-    width: 355px;
+    width: 300px;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
     font-size: 20px;
 }
 
 .aboutUsImage{
-    height: 280px;
-    width: 350px;
+    height: 200px;
+    width: 300px;
 }
 
 #aboutUsTextContainer{
-    width: 30%;
+    width: 38%;
     align-self: center;
 }
 
@@ -121,15 +120,14 @@ a:hover{
     background-color: #394b53;
     color: white;
     width: 100%;
-    font-size: 30px;
-    padding: 50px 0;
+    font-size: 25px;
+    padding: 25px 0;
 }
 
 #aboutUsOurTeamContainer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* padding: 120px 0; */
     justify-content: space-evenly;
     height: 100%;
 }
@@ -249,7 +247,8 @@ a:hover{
 }
 
 #Text{
-    font-size: 24px;
+    font-size: 21px;
+    width: 100%;
 }
 
 @media(max-width: 1024px){
