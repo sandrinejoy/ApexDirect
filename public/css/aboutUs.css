@@ -272,3 +272,21 @@ a:hover{
         width: 45%;
     }
 }
+
+@media(max-width: 414px){
+    html, body{
+        overflow-x: hidden;
+         /* overflow-x: hidden; */
+         width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .stickyHeader{
+        display: none;
+    }
+    .aboutUsTiles{
+        width: 98%;
+    }
+}

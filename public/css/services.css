@@ -194,3 +194,50 @@ a:hover{
     height: 50px;
     background-color: black;
 }
+
+@media(max-width: 414px){
+    html, body{
+        overflow-x: hidden;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .stickyHeader{
+        display: none;
+    }
+
+    #servicesPageTitle{
+        font-size: 50px;
+    }
+    #servicesPageSubTitle{
+        font-size: 38px;
+    }
+
+    .servicesTile{
+        width: 100%;
+    }
+    #retailEvents{
+        margin-top: 60px;
+    }
+
+    #training{
+        margin-top: 60px;
+    }
+
+    #seoInformationContainer{
+        margin-right: 100px;
+        width: 100%;
+    }
+
+    #seoTitle{
+        margin-right: 100px;
+        width: 85%;
+    }
+
+    #seoText{
+        margin-right: 140px;
+        width: 85%;
+    }
+}
