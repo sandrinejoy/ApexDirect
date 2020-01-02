@@ -1,6 +1,83 @@
-/* .test{
+body{
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Noto Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.hide{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+#jobAdContainer{
     width: 90%;
-} */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+#seriousInquiries{
+    text-align: center;
+}
+
+#noExperience{
+    color: red;
+}
+
+#jobAdTitle{
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+#mobileHeader{
+    display: none;
+}
+
+.spacer{
+    padding-top: 100px;
+}
+
+.stickyHeader{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.headerLink{
+    display: inline-block;
+    margin: auto 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    padding: 6px; 
+    font-size: 20px;
+}
+a:hover{
+    color: #ff5722;
+}
 
 #applyNow{
     text-align: center;
@@ -14,7 +91,7 @@
  } 
 
 #leftTriangle {
-    background-color: rgb(96,125,139);
+    background-color: rgba(158,158,158,.5);
     outline-style: none;
     height: 80px;
     border-top: 80px solid transparent;
@@ -33,7 +110,7 @@
 }
 
 #rightTriangle { 
-    background-color: rgb(96,125,139);
+    background-color: rgba(158,158,158,.5);
     height: 80px; 
     border-top: 80px solid transparent;
     border-right: 50vw solid black;

@@ -1,4 +1,4 @@
-console.log("hello")
+console.log("If your seeing this, congratulations you know where the developer tools are. Include AAA Dev in your application so we know you saw this message")
 
 window.onscroll = function() {myFunction()}
 
@@ -28,3 +28,6 @@ function myFunction(){
         mobileHeader.classList.add("noSticky")
     }
 }
+
+
+
