@@ -283,6 +283,23 @@ a:hover{
         box-sizing: border-box;
     }
 
+    #mobileHeader{
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+    }
+
+    #mobileLinks{
+        display: none;
+    }
+
+    #mobileLogo{
+        height: 40px;
+        width: 100px;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+
     .stickyHeader{
         display: none;
     }

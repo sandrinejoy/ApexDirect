@@ -173,3 +173,25 @@ a:hover{
     height: 50px;
     background-color: black;
 }
+
+@media(max-width: 414px){
+    #header{
+        display: none;
+    }
+    #mobileHeader{
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+    }
+
+    #mobileLinks{
+        display: none;
+    }
+
+    #mobileLogo{
+        height: 40px;
+        width: 100px;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+}

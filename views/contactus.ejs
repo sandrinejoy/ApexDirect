@@ -10,9 +10,25 @@
 
 <body>
 
-    <div class="spacer container" id="contactUsHeader">
+    <!-- MOBILE NAVIGATION MENU -->
 
-        <div class="stickyHeader slide-in-top">
+    <div class="stickyHeader closed slide-in-top" id="mobileHeader">
+                <img id="mobileLogo" class="mobileLogo" src="/images/apexLogo.png" alt="LOGO">
+                <ul id="mobileLinks">
+                    <a class="headerLink" href="/"><li class="headerLink">Home</li></a>
+                    <a href="/aboutus"><li class="headerLink">About Us</li></a>
+                    <a href="/services"><li class="headerLink">Services</li></a>
+                    <a href="/careers"><li class="headerLink">Careers</li></a>
+                    <a href="#"><li class="headerLink selected">Contact Us</li></a>
+                </ul>
+                <div id="hamburgerMenu">X</div>
+            </div>
+
+    <!-- DESKTOP NAVIGATION MENU -->
+
+    <div class="spacer container">
+
+        <div id="header" class="stickyHeader slide-in-top">
             <img id="logo" src="/images/apexLogo.png" alt="LOGO">
             <ul id="links">
                 <a class="headerLink" href="/">
@@ -79,6 +95,22 @@
         </div>
     
     </footer>
+
+    <script>
+        var mobileHeader = document.getElementById("mobileHeader");
+        document.getElementById("mobileLogo").addEventListener("click", ()=>{
+            if(mobileHeader.classList.contains("closed")){
+                mobileHeader.classList.remove("closed")
+                mobileHeader.style.height = "200px"
+                document.getElementById("mobileLinks").style.display = "block"
+            } else {
+                //mobileHeader.classList.remove("open")
+                mobileHeader.classList.add("closed")
+                mobileHeader.style.height = "70px"
+                document.getElementById("mobileLinks").style.display = "none"
+            }            
+        })
+    </script>
 
 </body>
 </html>
