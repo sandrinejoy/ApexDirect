@@ -2,7 +2,6 @@ body{
     width: 100%;
     margin: 0;
     overflow-x: hidden;
-    
     font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
 }
@@ -20,6 +19,15 @@ body{
     display: none;
 }
 
+.open{
+    /* height: 200px; */
+    height: 100%;
+}
+
+.closed{
+    height: 70px;
+}
+
 .stickyHeader{
     position: fixed;
     display: flex;
@@ -28,6 +36,18 @@ body{
     width: 100%;
     z-index: 99;
     height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.mobileStickyHeader{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 60px;
     background-color: black;
     color: white;
 }
@@ -52,10 +72,7 @@ body{
     width: 340px;
     height: 100%;
     margin: 10px;
-    /* padding: 10px; */
     letter-spacing: 2px;
-    /* font-size: 20px; */
-    /* border: 1px solid black; */
 }
 
 #mobileWhatAreYouImageContainer{
@@ -71,13 +88,8 @@ body{
     text-align: center;
     padding-top: 50px;
     background-color: rgb(96,125,139);
-    /* padding: 50px 0; */
     padding-bottom: 80px;
     color: white;
-}
-
-#whyUsTitle{
-    /* font-size: 40px; */
 }
 
 #whyUsText{
@@ -369,39 +381,16 @@ a:hover{
         overflow-x: hidden;
     }
     #header{
-        display: none;
+        /* display: none; */
     }
 
     #mainVideo{
         /* display: none; */
     }
 
-    .mobileStickyHeader{
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-    height: 60px;
-    background-color: black;
-    color: white;
-}
     #mainVideo{
         margin-top: 70px;
     }
-
-    #mobileHeader{
-        /* position: fixed;
-        display: flex;
-        justify-content: space-between;
-        top: 0;
-        width: 100%;
-        z-index: 99;
-        height: 80px;
-        background-color: black;
-        color: white; */
-    } 
 
     #whatAreYou{
         display: block;
@@ -446,33 +435,57 @@ a:hover{
 @media(max-width: 414px){
     html, body{
         overflow-x: hidden;
-         /* overflow-x: hidden; */
-         width: 100%;
+        width: 100%;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
-   #whyUsTitle{
+    #header{
+        display: none;
+    }
+    #mobileHeader{
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+    }
+
+    #mobileLogo{
+        height: 40px;
+        width: 100px;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+
+    #mobileLinks{
+        display: none;
+    }
+
+    #whyUsTitle{
        font-size: 25px;
-   }
-   #whyUsText{
+    }
+
+    #whyUsText{
        font-size: 20px;
-   }
-   #jobSeekersTextContainer{
+    }
+
+    #jobSeekersTextContainer{
        margin: 0 auto;
        width: 100%;
        padding-right: 98px;
-   }
-   #jobSeekersTitle{
+    }
+
+    #jobSeekersTitle{
        margin-left: 36px;
        width: 100%;
-   }
-   #jobSeekersTextContainer p{
+    }
+
+    #jobSeekersTextContainer p{
        width: 130%;
        margin: 20px auto;
-   }
-   #applyNow{
+    }
+
+    #applyNow{
        margin: 0 auto;
-   }
+    }
 }
 

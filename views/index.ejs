@@ -41,9 +41,22 @@
 <body>
     <div id="pageContainer">
         <div class="container" id="mainLandingPage">
+
+            <div class="stickyHeader closed slide-in-top" id="mobileHeader">
+                <img id="mobileLogo" class="mobileLogo" src="/images/apexLogo.png" alt="LOGO">
+                <ul id="mobileLinks">
+                    <a class="headerLink" href="#"><li class="headerLink">Home</li></a>
+                    <a href="/aboutus"><li class="headerLink">About Us</li></a>
+                    <a href="/services"><li class="headerLink">Services</li></a>
+                    <a href="/careers"><li class="headerLink">Careers</li></a>
+                    <a href="/contactUs"><li class="headerLink">Contact Us</li></a>
+                </ul>
+                <div id="hamburgerMenu">X</div>
+            </div>
+
             <div class="noSticky slide-in-top" id="header">
                 <img id="logo" src="/images/apexLogo.png" alt="LOGO">
-                <ul id="links">
+                <ul id="mobileLinks">
                     <a class="headerLink selected" href="#"><li class="headerLink">Home</li></a>
                     <a href="/aboutus"><li class="headerLink">About Us</li></a>
                     <a href="/services"><li class="headerLink">Services</li></a>
@@ -51,19 +64,6 @@
                     <a href="/contactUs"><li class="headerLink">Contact Us</li></a>
                 </ul>
             </div>
-
-
-  
-            <!-- <div class="noSticky slide-in-top" id="mobileHeader">
-                <img id="logo" src="/images/apexLogo.png" alt="LOGO">
-                <ul id="links"> -->
-                    <!-- <a class="headerLink" href="#"><li class="headerLink">Home</li></a>
-                    <a href="/aboutus"><li class="headerLink">About Us</li></a>
-                    <a href="/services"><li class="headerLink">Services</li></a>
-                    <a href="/careers"><li class="headerLink">Careers</li></a>
-                    <a href="/contactUs"><li class="headerLink">Contact Us</li></a> -->
-                <!-- </ul>
-            </div> -->
 
         
             <video title="marketingVideo" id="mainVideo" autoplay="" loop="" muted="" playsinline="">
@@ -157,13 +157,7 @@
             </div>
 
         </div>
-
-        <!-- <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" style="fill:red"
-            xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-            <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-        </svg> -->
-
-        
+      
         <div id="triangles">
 
         <div id="leftTriangle"></div>
@@ -205,5 +199,20 @@
     <script src="/js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init()</script>
+    <script>
+        var mobileHeader = document.getElementById("mobileHeader");
+        document.getElementById("mobileLogo").addEventListener("click", ()=>{
+            if(mobileHeader.classList.contains("closed")){
+                mobileHeader.classList.remove("closed")
+                mobileHeader.style.height = "200px"
+                document.getElementById("mobileLinks").style.display = "block"
+            } else {
+                //mobileHeader.classList.remove("open")
+                mobileHeader.classList.add("closed")
+                mobileHeader.style.height = "70px"
+                document.getElementById("mobileLinks").style.display = "none"
+            }            
+        })
+    </script>
 </body>
 </html>
