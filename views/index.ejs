@@ -53,14 +53,14 @@
                     <a href="/careers"><li class="headerLink">Careers</li></a>
                     <a href="/contactUs"><li class="headerLink">Contact Us</li></a>
                 </ul>
-                <div id="hamburgerMenu">X</div>
+                <!-- <div id="hamburgerMenu">X</div> -->
             </div>
 
             <!-- DESKTOP NAVIGATION MENU -->
 
             <div class="noSticky slide-in-top" id="header">
                 <img id="logo" src="/images/apexLogo.png" alt="LOGO">
-                <ul id="mobileLinks">
+                <ul id="desktopLinks">
                     <a class="headerLink selected" href="#"><li class="headerLink">Home</li></a>
                     <a href="/aboutus"><li class="headerLink">About Us</li></a>
                     <a href="/services"><li class="headerLink">Services</li></a>
@@ -209,7 +209,7 @@
             if(mobileHeader.classList.contains("closed")){
                 mobileHeader.classList.remove("closed")
                 mobileHeader.style.height = "200px"
-                document.getElementById("mobileLinks").style.display = "block"
+                document.getElementById("mobileLinks").style.display = "flex"
             } else {
                 //mobileHeader.classList.remove("open")
                 mobileHeader.classList.add("closed")
@@ -217,6 +217,7 @@
                 document.getElementById("mobileLinks").style.display = "none"
             }            
         })
+
     </script>
 </body>
 </html>

@@ -380,11 +380,31 @@ a:hover{
     html, body{
         overflow-x: hidden;
     }
-    #header{
-        /* display: none; */
+  #header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 80px;
+    background-color: black;
+    color: white;
     }
 
-    #mainVideo{
+    .headerLink{
+        font-size: 15px;
+        margin: auto 10px
+    }
+
+    #logo{
+        height: 40px;
+        width: 100px;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+
+    #mobileLinks{
         /* display: none; */
     }
 
@@ -432,6 +452,37 @@ a:hover{
     }
 }
 
+@media(max-width: 768px){
+    #header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        height: 70px;
+        background-color: black;
+        color: white;
+    }
+    .headerLink{
+        font-size: 12px;
+        margin: auto 8px;
+    }
+    #mobileHeader{
+        display: none;
+    }
+    #mobileLinks{
+        display: none;
+    }
+     #logo{
+        height: 40px;
+        width: 100px;
+        margin-top: 16px;
+        margin-left: 15px;
+    }
+
+}
+
 @media(max-width: 414px){
     html, body{
         overflow-x: hidden;
@@ -458,6 +509,7 @@ a:hover{
 
     #mobileLinks{
         display: none;
+        flex-direction: column;
     }
 
     #whyUsTitle{
