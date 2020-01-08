@@ -21,7 +21,7 @@
                     <a href="/careers"><li class="headerLink">Careers</li></a>
                     <a href="#"><li class="headerLink selected">Contact Us</li></a>
                 </ul>
-                <!-- <div id="hamburgerMenu">X</div> -->
+                <img src="/images/hamburgerMenu.png" id="hamburgerMenuIcon">
             </div>
 
     <!-- DESKTOP NAVIGATION MENU -->
@@ -98,7 +98,7 @@
 
     <script>
         var mobileHeader = document.getElementById("mobileHeader");
-        document.getElementById("mobileLogo").addEventListener("click", ()=>{
+        document.getElementById("hamburgerMenuIcon").addEventListener("click", ()=>{
             if(mobileHeader.classList.contains("closed")){
                 mobileHeader.classList.remove("closed")
                 mobileHeader.style.height = "200px"

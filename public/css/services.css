@@ -276,6 +276,12 @@ a:hover{
         flex-direction: column;
     }
 
+    #hamburgerMenuIcon{
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
     #mobileLogo{
         height: 40px;
         width: 100px;
